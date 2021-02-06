@@ -19,5 +19,5 @@ class jsoncreator():
              print(json1)
         with open('info.json','w') as f:
             json.dump(json1,f)
-       
+        return
 pass
