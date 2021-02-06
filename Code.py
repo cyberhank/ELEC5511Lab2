@@ -2,6 +2,7 @@ from Rectangle import Rectangle
 from Circle import Circle
 from JSONR import jsoncreator
 import math
+from Excel import exceler
 newRectangle = Rectangle(12,10)
 print(newRectangle.rectangle_area())
 
@@ -12,3 +13,4 @@ print(NewCircle.circumference())
 newJSON = jsoncreator()
 newJSON.create_json()
 
+newExcel = exceler()
