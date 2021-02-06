@@ -15,3 +15,4 @@ print(newRectangle.rectangle_area())
 
 newExcel = exceler()
 print(newExcel.find_date('employee.xlsx'))
+print(newExcel.sort_dates('employee.xlsx'))
