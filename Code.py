@@ -10,7 +10,7 @@ NewCircle = Circle(8)
 print(NewCircle.area())
 print(NewCircle.circumference())
 
-newJSON = jsoncreator()
-newJSON.create_json()
+This is a temporary script file.
+"""
 
 newExcel = exceler()
