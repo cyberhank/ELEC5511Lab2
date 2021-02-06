@@ -7,8 +7,7 @@ class exceler():
         data = pd.read_excel(file, sheet_name='Sheet1')
         print(data)
         print(data[(data.hire_date >= '2007-01-01')])
-        frame = 0
-        return frame
+        return 
 
     pass
 
