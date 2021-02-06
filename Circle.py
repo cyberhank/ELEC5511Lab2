@@ -10,3 +10,7 @@ class Circle():
        
          circumference = 2* math.pi * self.radius
          return circumference
+ 
+         NewCircle = Circle(8)
+         print(NewCircle.area())
+ 
